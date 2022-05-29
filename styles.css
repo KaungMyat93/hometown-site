@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    background-image: url(images/main-img.jpg);
+    width: 720px;
+    height: 343px;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    background-color: #457B9D;
+    width: 220px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+h2 {
+    background-color: #1D3557;
+    width: 400px;
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 4px 0 4px 0;
+}
+
+.box-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+    padding: 20px;
+    text-align: center;
+    /* border: 2px dotted red; */
+    padding-top: 60px;
+}
+
+.main-container {
+    display: flex;
+    background: #F1FAEE;
+    width: 720px;
+    height: 390px;
+    margin: 0 auto;
+    
+}
+
+.business-card {
+    /* border: 2px dotted blue; */
+     width: 720px;
+    height: 343px; 
+    margin: 0 auto;
+}
+
+.my-photo {
+    width: 180px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.card-box {
+    /* border: 2px dotted red; */
+    display: flex;
+    background-color: #A8DADC; 
+    width: 450px;
+    height: 300px;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+    border-left: 4px solid black;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 4px solid black; */
+    
+}
+
+.introduction-box {
+    width: 180px;
+    text-align: center;
+    
+}
+
+.introduction {
+    font-style: italic;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
